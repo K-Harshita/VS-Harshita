@@ -1,4 +1,5 @@
 
+
 name: hello world
 
 on:
@@ -7,7 +8,7 @@ on:
     - main
   pull_request:
     - main
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   hello:
